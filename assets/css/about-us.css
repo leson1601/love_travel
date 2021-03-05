@@ -1,0 +1,409 @@
+.header-and-about-us {
+    width: 100%;
+    height: 310px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(63, 71, 73, 0.28)),url("/assets/img/about-us/parallax-3-1.jpg"); 
+}
+
+
+.about-us-title {
+    width: 1200px;
+    margin: 94px auto 48px;
+    padding: 15px;
+
+}
+
+.about-us-title-inner {
+    width: 100%;
+    color: var(--white-color);
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.apps {
+    width: 100%;
+}
+
+.about-us-content {
+
+}
+
+.about-us-content-inner {
+    padding: 60px 15px;
+    margin: auto -15px; 
+
+    
+}
+
+.about-us__des {
+    display: flex;
+}
+
+.about-us-des__column-1 {
+    padding: 0 40px 0 15px;
+    width: 50%;
+    color: var(--text-color);
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: right;
+    line-height: 50px;
+    letter-spacing: 1px;
+}
+
+.about-us-des__column-2,
+.about-us-des__column-3 {
+    width: 25%;
+    padding: 4px 15px 0;   
+    color: var(--text-color-2);
+    font-size: 1.4rem;
+    line-height: 27px;
+    letter-spacing: 1px;
+}
+
+.about-us-des__paragraph {
+    margin-top: 15px;
+}
+
+
+.about-us__video {
+    width: 66.67%;
+    margin: 70px auto 0;
+    position: relative;
+}
+
+.about-us__video-thumbnail {
+    width: 100%;
+}
+
+.about-us__video-thumbnail img {
+    width: 100%;
+}
+
+.about-us__video-plab-btn {
+    position: absolute;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    font-size: 10rem;
+    transform: translate(-50%, -50%);
+}
+
+.about-us__video-plab-btn:hover {
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.9);
+
+}
+
+
+/* Staff */
+.about-us-staff {
+    width: 100%;
+    position: relative;
+}
+
+.about-us-staff-background {
+    width: 100%;
+    height: 556px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(63, 71, 73, 0.28)), url("/assets/img/about-us/parallax-15.jpg");    
+    position: absolute;
+    z-index: -1;
+}
+
+
+.about-us-staff-content {
+    padding: 0 15px;
+}
+
+.about-us-staff-inner {
+    width: 100%;
+    padding-top: 100px;
+    
+    height: 356px;
+
+}
+
+.about-us-staff__info {
+    width: 570px;
+    float: right;
+    letter-spacing: 1px;
+    color: var(--white-color);
+    text-align: center;
+}
+
+.about-us-staff__title {
+    font-size: 5rem;    
+    font-weight: bold;
+    text-align: center;
+}
+
+.about-us-staff__desc {
+    line-height: 25px;
+    font-size: 1.3rem;
+    letter-spacing: 3px;
+    font-weight: lighter;
+    margin-top: 30px;
+}
+
+.about-us-staff__contact-btn {
+    margin-top: 30px;    
+}
+
+.about-us-staff__btn {    
+    color: var(--white-color);
+    font-size: 1.6rem;
+    background-color: #f3a46b;
+    letter-spacing: 1px;
+    padding: 14px 25px;
+}
+
+/* Staff person */
+.about-us-staff__person {
+    margin-top: 80px;
+}
+
+.about-us-staff__person-item {
+    display: flex;
+    margin: auto -15px;
+}
+
+.about-us-staff__person-wrapper {
+    width: 25%;
+    padding: 0 15px;
+
+}
+
+.about-us-staff__person-img {
+
+}
+
+.about-us-staff__person-img  img {
+    width: 100%;
+}
+
+.about-us-staff__person-info {
+    padding: 20px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.about-us-staff__person-name {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: var(--text-color);
+}
+
+.about-us-staff__person-job {
+    letter-spacing: 3px;
+    font-size: 1.2rem;
+    color: var(--text-color-2);
+    margin-top: 10px;
+}
+
+.about-us-staff__person-desc {
+    margin-top: 20px;
+    font-size: 1.4rem;
+    color: var(--text-color-2);
+    line-height: 27px;
+}
+
+.about-us-staff__person-btn {
+    margin-top: 28px;
+}
+
+.about-us-staff__person-btn a {
+    font-size: 1.3rem;
+    color: var(--text-color-2);
+    background-color: var(--white-color);
+    border: 1px solid #f1f1f1;
+    padding: 5px 17px;
+    border-radius: 20px;
+}
+
+
+/* Promotion */
+
+.about-us__promotion-title {
+    margin: 60px 0;
+    text-align: center;    
+}
+
+.about-us__promotion-title--small {
+    color: var(--text-color-2);
+    font-size: 1.4rem;
+}
+
+.about-us__promotion-title--big {
+    color: var(--text-color);
+    font-size: 3.6rem;
+    font-weight: bold;
+    margin-top: 22px;
+}
+
+.about-us__destination {
+    margin: 76px -15px 0;
+    display: flex;
+}
+
+.about-us__destination-column {
+    width: 50%;
+    letter-spacing: 1px;
+    padding: 0 15px;
+}
+
+.about-us__destination-item {
+   padding: 15px 0 10px;
+}
+
+.about-us__destination-row-1 {
+    display: flex;
+    line-height: 1.7rem;
+}
+
+.about-us__destination-name {
+    font-weight: bold;
+    font-size: 1.7rem;
+    color: var(--text-color);
+}
+
+.about-us__destination-separate {
+    flex: 1;
+    border-bottom: 2px dotted #f1f1f1;
+}
+
+.about-us__destination-price {
+    font-size: 1.7rem;
+    color: var(--text-color);
+    font-weight: bold;
+}
+
+.about-us__destination-row-2 {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-us__destination-desc {
+    font-size: 1.4rem;
+    color: var(--text-color-2);
+    line-height: 27px;
+    font-weight: 300;
+}
+
+.about-us__destination-tag {
+    font-size: 1.3rem;
+    line-height: 23px;
+    color: var(--text-color-2);
+    background-color: var(--white-color);
+    border-radius: 15px;
+    padding: 1px 10px;
+    height: 23px;
+    border: 1px solid #f1f1f1;
+}
+
+.saphire {
+    background-color: var(--saphire-color);
+    color: var(--white-color);
+}
+
+.red {
+    background-color: var(--red-color);
+    color: var(--white-color);
+}
+
+.blue {
+    background-color: var(--blue-color);
+    color: var(--white-color);
+}
+
+.yellow {
+    background-color: var(--yellow-color);
+    color: var(--white-color);
+}
+
+.orange {
+    background-color: var(--orange-color);
+    color: var(--white-color);
+}
+
+.green {
+    background-color: var(--green-color);
+    color: var(--white-color);
+}
+/* End: Staff */
+
+/* Data */
+.about-us__data {
+    width: 100%;
+    height: 312px;
+    background-position: 20% 20%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(63, 71, 73, 0.28)), url(/assets/img/about-us/p-10.jpg);
+}
+
+.about-us__data-container {
+    height: 100%;
+    width: 1200px;
+    
+
+}
+
+.about-us__data-inner {
+    height: 100%;
+    padding:  110px 0 100px;
+    display: flex;
+    
+    
+}
+
+.about-us__data-item {
+    width: 25%;
+    color: var(--white-color);
+    text-align: center;
+}
+
+.about-us__data-number {
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.about-us__data-info {
+    font-size: 1.3rem;
+    font-weight: 300;
+    letter-spacing: 3px;
+    margin-top: 24px;
+}
+
+
+
+
+
+
+/* Overlay Video */
+.about-us__video-overlay {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+    cursor: pointer;
+}
+
+.about-us__video-overlay iframe {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 50px;
+    
+    transform: translate(-50%,-50%);
+}

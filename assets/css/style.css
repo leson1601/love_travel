@@ -1,0 +1,594 @@
+/* Destination search */
+.header-and-search {
+    width: 100%;
+    height: 870px;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: 125% 125%;
+    background-image: linear-gradient(rgba(41, 201, 241, 0.01), rgba(110, 105, 105, 0.5)),  url("/assets/img/header-background.jpg");     
+    /* filter: contrast(0.6); */
+}
+
+.search {
+    text-align: center;
+    color: var(--white-color);
+}
+
+.search-title {
+    font-size: 5rem;
+    font-weight: 900;
+    margin-top: 170px;
+}
+
+.search-subtitle {
+    font-size: 2rem;    
+    font-weight: normal;
+    letter-spacing: 4px;
+    margin-top: 35px;
+}
+
+.search-input {
+    margin-top: 65px;
+    position: relative;
+}
+
+.search-input__icon {
+    font-size: 1.9rem;
+    color: #a3a3a3;
+    position: absolute;
+    top: 12.9px;
+    right: 39.2%;
+    cursor: pointer;
+}
+
+.search-input__options {
+    width: 370px;
+    height: 43px;
+    border-radius: 30px;
+    padding: 10px 25px;
+    font-size: 1.5rem;    
+    font-weight: normal;   
+    letter-spacing: 0.3px;
+    color: #a3a3a3;
+    background-color: #f9f9f9;
+    border: 1px solid #f1f1f1;
+    -webkit-appearance: none; 
+    outline: none;
+    cursor: pointer;
+}
+
+.search-input__options option {
+    font-size: 1.7rem;
+    min-height: 20px;
+}
+
+
+.search-type {
+    display: flex;
+    justify-content: space-evenly;
+    width: 600px;
+    margin: 70px auto 0;
+}
+
+.search-type__item {    
+   width: 110px;
+   height: 110px;
+   background: rgba(0,0,0,0.21);
+}
+
+.search-type__relax {
+
+}
+
+.search-type__img {
+    width: 40px;
+    height: 40px;
+    margin-top: 24px;
+}
+
+.search-type__text {
+    font-size: 1.1rem;
+    
+    letter-spacing: 2px;
+    margin-top: 12px;
+}
+
+.search-type__cultural {
+
+}
+
+.search-type__sport {
+
+}
+
+.search-type__history {
+
+}
+
+
+/* Content */
+.content {
+
+}
+
+.content-title {
+    margin: 60px 0;
+    text-align: center;
+    
+}
+
+.content-title--small {
+    color: var(--text-color-2);
+    font-size: 1.4rem;
+}
+
+.content-title--big {
+    color: var(--text-color);
+    font-size: 3.6rem;
+    font-weight: bold;
+    margin-top: 22px;
+}
+
+
+/* Content package */
+.content-pakages {
+    width: 100%;
+    
+}
+
+.content-packages__row {
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content-pakages__item {    
+    height: 100%;
+    padding: 15px;
+    color: var(--white-color);
+    position: relative;
+    
+}
+
+.content-pakages__item:hover .content-package-1 {
+    opacity: 0;
+}
+
+.content-pakages__item:hover .content-package-2 {
+    opacity: 1;
+}
+
+
+
+.content-package-1 {
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+   
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.content-package--europe {
+    background-image:linear-gradient(rgba(41, 201, 241, 0.01), rgba(110, 105, 105, 0.5)), url("../img/content-package/destination-9.jpg");
+}
+
+.content-package--thailand {
+    background-image:linear-gradient(rgba(41, 201, 241, 0.01), rgba(110, 105, 105, 0.5)), url("../img/content-package/destination-5.jpg");
+}
+
+.content-package--asia {
+    background-image:linear-gradient(rgba(41, 201, 241, 0.01), rgba(110, 105, 105, 0.5)), url("../img/content-package/destination-8.jpg");
+
+}
+
+.content-package--italy {
+    background-image:linear-gradient(rgba(41, 201, 241, 0.01), rgba(110, 105, 105, 0.5)), url("../img/content-package/destination-10.jpg");
+}
+
+.content-package--netherland {
+    background-image:linear-gradient(rgba(41, 201, 241, 0.01), rgba(110, 105, 105, 0.5)), url("../img/content-package/destination-11.jpg");
+}
+
+.content-package--unitedstate {
+    background-image:linear-gradient(rgba(41, 201, 241, 0.01), rgba(110, 105, 105, 0.5)), url("../img/content-package/destination-1.jpg");
+}
+
+.content-package__icon {
+    width: 35px;
+}
+
+.content-package__icon img {
+    width: 100%;
+    margin: 30px 0 0 30px ;
+    
+}
+
+
+.content-package-continent {
+    font-size: 2rem;
+    font-weight: 700;
+    display: block;
+    text-align: left;
+    margin-left: 30px;
+    position: relative;
+    top: 62%;
+    text-shadow: 0 0 2px #000;    
+}
+
+.content-package-quantity {
+    font-size: 1.3rem;
+    font-weight: 400;
+    text-align: left;
+    margin-left: 30px;
+    display: block;
+    letter-spacing: 2px;
+    position: relative;
+    top: 65%;    
+    text-shadow: 0 0 2px #000;
+}
+
+.content-package-2 {
+    width: calc(100% - 30px);
+    height: calc(100% - 30px);
+    text-align: center;
+    background-color: #14b9d5;
+    opacity: 0;
+    top: 15px;
+    left: 15px;
+    position: absolute;
+    transition: opacity 0.5s ease-in-out;
+    background-origin: content-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content-package-title {
+    color: var(--white-color);
+    font-weight: bold;
+    font-size: 2rem;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.content-package-city {
+    display: block;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: var(--white-color);
+    margin-bottom: 15px;
+    cursor: pointer;
+    letter-spacing: 0.3px;
+}
+
+.content-package-destination {
+    background-color: var(--white-color);
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin: 30px auto ;
+    padding: 8px 0;
+    border-radius: 20px;
+    color: #14b9d5;
+    cursor: pointer;
+    width: 170px;
+}
+
+
+.content-package-destination a {
+    color: #14b9d5;
+}   
+
+
+.content-all-packages {
+    height: 233px;
+    margin-top: 65px;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/assets/img/content-package/parallax-search-2.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-all-packages__title {
+    font-size: 4.5rem;
+    color: var(--white-color);
+    font-weight: bold;
+    position: relative;
+    right: 86px;
+    
+}
+
+.content-all-packages__title-1 {
+   
+}
+
+.content-all-packages__title-2 {
+
+}
+
+
+.content-all-packages__btn {
+    position: relative;    
+    left: 40px;
+}
+
+.content-all-packages__btn a {
+    text-transform: uppercase;
+    color: #f76570;
+}
+
+
+/* Beaches */
+.content-beaches {
+    display: flex;
+    margin-top: 60px;
+    padding: 15px;
+    justify-content: space-between;
+    
+}
+
+.content-beaches__info {
+    width: 350px;
+    height: 410px;
+}
+
+.content-beaches__place {
+    color: var(--text-color-2);
+    font-size: 1.4rem;
+
+}
+
+.content-beaches__title {
+    font-size: 3.6rem;
+    color: var(--text-color);
+    font-weight: bold;    
+    margin-top: 15px;
+}
+
+.content-beaches__desc {
+    color: var(--text-color-2);
+    font-size: 1.4rem;
+    margin-top: 30px;
+    letter-spacing: 1px;
+    line-height: 27px;
+}
+
+.content-beaches__price {    
+    margin-top: 28px;    
+    font-size: 3rem;
+    color: var(--text-color);    
+    letter-spacing: 1px;
+}
+
+.content-beaches__old-price {
+    color: #dadada;
+    text-decoration: line-through;
+}
+
+.content-beaches__new-price {
+
+}
+
+.content-beaches__price-unit {
+    font-size: 1.4rem;
+}
+
+.content-beaches__btn {
+    margin-top: 24px;  
+    outline: none; 
+    background-color: #1bbc9b;
+    color: var(--white-color);
+}
+
+/* beach slider */
+.content-beaches__slider {
+    width: 750px;
+    height: 410px;
+    text-align: center;
+    overflow: unset;
+    position: relative;
+}
+
+.content-beaches__slider-btn {
+    display: flex;
+    height: 20px;
+    width: 240px;
+    position: absolute;
+    z-index: 1;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+.content-beaches__slider-btn-item {
+    width: 60px;
+    height: 4px;
+    background: rgba(255,255,255,0.5);
+    margin: 0 8px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.content-beaches__slider-btn-item--active {
+    background: rgba(255,255,255,1);
+}
+
+.content-beaches__slider-btn-item:hover {
+    background: rgba(255,255,255,1);
+    
+}
+
+.content-beaches__slides {
+    width: 100%;
+    height: 100%;
+}
+
+.content-beaches__slide {
+    width: 100%;
+}
+
+.content-beaches__slide--active img {
+    opacity: 1;
+}
+
+.content-beaches__slide-img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    opacity: 0;    
+    transition: opacity ease-in-out 1s;
+}
+
+
+/* time remain */
+.content-beaches__countdown {
+    width: 490px;
+    height: 114px;
+    background-color: #14B9D5;
+    position: absolute;
+    bottom: -57px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;    
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.content-beaches__time-day,
+.content-beaches__time-hour ,
+.content-beaches__time-minute,
+.content-beaches__time-second {
+    color: var(--white-color);  
+   
+    
+}
+
+.content-beaches__time-number {
+    font-size: 3.5rem;
+    margin-bottom: 6px;  
+}
+
+.content-beaches__time-unit {
+    font-size: 1.3rem;
+    text-transform: uppercase;
+}
+
+.content-beaches__time-separate {
+    font-size: 4rem;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.05)
+}
+
+
+/* Content tour */
+.content-tour {
+    margin-top: 80px;
+    display: flex;
+    
+}
+
+.content-tour__item {
+    width: 33.33%;
+    display: flex;
+    padding: 15px;
+}
+
+.content-tour__icon {
+   
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+.content-tour__icon-img {
+    width: 50px;
+    height: 50px;
+}
+
+
+.content-tour__info {
+    
+    text-align: left;
+}
+
+.content-tour__title {
+    font-size: 2.4rem;
+    color: var(--text-color);
+    font-weight: bold;
+}
+
+.content-tour__desc {
+    font-size: 1.4rem;
+    margin-top: 20px;
+    color: var(--text-color-2);
+    letter-spacing: 1px;
+    line-height: 2.4rem;
+}
+
+.content-tour__btn {
+    color: #14b9d5;
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+    margin-top: 20px;
+    display: block;
+}
+
+
+.content-discover {
+    width: 100%;
+    height: 270px;
+    display: flex;
+    margin-top: 60px;
+}
+
+.content-discover__item {
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 64px 15px;
+}
+
+.content-discover__item-left {    
+    background-image: url('/assets/img/content-discover/parallax-5-filter.jpg')
+}
+
+.content-discover__item-left .content-discover__btn {
+    color: #f3a46b;
+}
+
+.content-discover__item-right {
+    background-image: url('/assets/img/content-discover/parallax-6-filter.jpg')
+}
+
+.content-discover__item-right .content-discover__btn {   
+    color: #1bbc9b;
+}
+
+.content-discover__title {
+    color: var(--white-color);
+    font-size: 1.4rem;
+    letter-spacing: 2px;
+
+}
+
+.content-discover__place {
+    color: var(--white-color);
+    font-size: 3.6rem;
+    font-weight: bold;
+    margin-top: 18px;
+}
+
+.content-discover__btn {
+    margin-top: 40px;
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+}
+
