@@ -17,12 +17,8 @@ var sortButton = document.querySelectorAll('.search-sort__btn')
 console.log(sortButton)
 for (let i = 0; i < sortButton.length; i++) {
     sortButton[i].onclick = function () {
-        if (!sortButton[i].classList.contains('search-sort__btn--active')) {
-            for (let j = 0; j < sortButton.length; j++) {
-                if (i == j) sortButton[j].classList.add('search-sort__btn--active')
-                else sortButton[j].classList.remove('search-sort__btn--active')
-            }
-        }
+        document.querySelector('.search-sort__btn--active').classList.remove('search-sort__btn--active')
+        this.classList.add('search-sort__btn--active')
     }
 }
 
