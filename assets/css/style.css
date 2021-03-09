@@ -5,7 +5,11 @@
     background-position: bottom center;
     background-repeat: no-repeat;
     background-size: 125% 125%;
-    background-image: linear-gradient(rgba(41, 201, 241, 0.01), rgba(110, 105, 105, 0.5)),  url("/assets/img/header-background.jpg");     
+    background-image: linear-gradient(
+            rgba(41, 201, 241, 0.01),
+            rgba(110, 105, 105, 0.5)
+        ),
+        url("/assets/img/header-background.jpg");
     /* filter: contrast(0.6); */
 }
 
@@ -21,7 +25,7 @@
 }
 
 .search-subtitle {
-    font-size: 2rem;    
+    font-size: 2rem;
     font-weight: normal;
     letter-spacing: 4px;
     margin-top: 35px;
@@ -46,13 +50,13 @@
     height: 43px;
     border-radius: 30px;
     padding: 10px 25px;
-    font-size: 1.5rem;    
-    font-weight: normal;   
+    font-size: 1.5rem;
+    font-weight: normal;
     letter-spacing: 0.3px;
     color: #a3a3a3;
     background-color: #f9f9f9;
     border: 1px solid #f1f1f1;
-    -webkit-appearance: none; 
+    -webkit-appearance: none;
     outline: none;
     cursor: pointer;
 }
@@ -62,7 +66,6 @@
     min-height: 20px;
 }
 
-
 .search-type {
     display: flex;
     justify-content: space-evenly;
@@ -70,14 +73,13 @@
     margin: 70px auto 0;
 }
 
-.search-type__item {    
-   width: 110px;
-   height: 110px;
-   background: rgba(0,0,0,0.21);
+.search-type__item {
+    width: 110px;
+    height: 110px;
+    background: rgba(0, 0, 0, 0.21);
 }
 
 .search-type__relax {
-
 }
 
 .search-type__img {
@@ -88,33 +90,27 @@
 
 .search-type__text {
     font-size: 1.1rem;
-    
+
     letter-spacing: 2px;
     margin-top: 12px;
 }
 
 .search-type__cultural {
-
 }
 
 .search-type__sport {
-
 }
 
 .search-type__history {
-
 }
-
 
 /* Content */
 .content {
-
 }
 
 .content-title {
     margin: 60px 0;
     text-align: center;
-    
 }
 
 .content-title--small {
@@ -129,11 +125,9 @@
     margin-top: 22px;
 }
 
-
 /* Content package */
 .content-pakages {
     width: 100%;
-    
 }
 
 .content-packages__row {
@@ -142,12 +136,11 @@
     flex-wrap: wrap;
 }
 
-.content-pakages__item {    
+.content-pakages__item {
     height: 100%;
     padding: 15px;
     color: var(--white-color);
     position: relative;
-    
 }
 
 .content-pakages__item:hover .content-package-1 {
@@ -158,40 +151,61 @@
     opacity: 1;
 }
 
-
-
 .content-package-1 {
     width: 100%;
     height: 100%;
     background-size: contain;
-   
+
     opacity: 1;
     transition: opacity 0.5s ease-in-out;
 }
 
 .content-package--europe {
-    background-image:linear-gradient(rgba(41, 201, 241, 0.01), rgba(110, 105, 105, 0.5)), url("../img/content-package/destination-9.jpg");
+    background-image: linear-gradient(
+            rgba(41, 201, 241, 0.01),
+            rgba(110, 105, 105, 0.5)
+        ),
+        url("../img/content-package/destination-9.jpg");
 }
 
 .content-package--thailand {
-    background-image:linear-gradient(rgba(41, 201, 241, 0.01), rgba(110, 105, 105, 0.5)), url("../img/content-package/destination-5.jpg");
+    background-image: linear-gradient(
+            rgba(41, 201, 241, 0.01),
+            rgba(110, 105, 105, 0.5)
+        ),
+        url("../img/content-package/destination-5.jpg");
 }
 
 .content-package--asia {
-    background-image:linear-gradient(rgba(41, 201, 241, 0.01), rgba(110, 105, 105, 0.5)), url("../img/content-package/destination-8.jpg");
-
+    background-image: linear-gradient(
+            rgba(41, 201, 241, 0.01),
+            rgba(110, 105, 105, 0.5)
+        ),
+        url("../img/content-package/destination-8.jpg");
 }
 
 .content-package--italy {
-    background-image:linear-gradient(rgba(41, 201, 241, 0.01), rgba(110, 105, 105, 0.5)), url("../img/content-package/destination-10.jpg");
+    background-image: linear-gradient(
+            rgba(41, 201, 241, 0.01),
+            rgba(110, 105, 105, 0.5)
+        ),
+        url("../img/content-package/destination-10.jpg");
 }
 
 .content-package--netherland {
-    background-image:linear-gradient(rgba(41, 201, 241, 0.01), rgba(110, 105, 105, 0.5)), url("../img/content-package/destination-11.jpg");
+    background-image: linear-gradient(
+            rgba(41, 201, 241, 0.01),
+            rgba(110, 105, 105, 0.5)
+        ),
+        url("../img/content-package/destination-11.jpg");
 }
 
 .content-package--unitedstate {
-    background-image:linear-gradient(rgba(41, 201, 241, 0.01), rgba(110, 105, 105, 0.5)), url("../img/content-package/destination-1.jpg");
+    background-image: linear-gradient(
+            rgba(41, 201, 241, 0.01),
+            rgba(110, 105, 105, 0.5)
+        ),
+        url("../img/content-package/destination-1.jpg");
 }
 
 .content-package__icon {
@@ -200,10 +214,8 @@
 
 .content-package__icon img {
     width: 100%;
-    margin: 30px 0 0 30px ;
-    
+    margin: 30px 0 0 30px;
 }
-
 
 .content-package-continent {
     font-size: 2rem;
@@ -213,7 +225,7 @@
     margin-left: 30px;
     position: relative;
     top: 62%;
-    text-shadow: 0 0 2px #000;    
+    text-shadow: 0 0 2px #000;
 }
 
 .content-package-quantity {
@@ -224,7 +236,7 @@
     display: block;
     letter-spacing: 2px;
     position: relative;
-    top: 65%;    
+    top: 65%;
     text-shadow: 0 0 2px #000;
 }
 
@@ -266,7 +278,7 @@
     background-color: var(--white-color);
     font-size: 1.4rem;
     font-weight: 400;
-    margin: 30px auto ;
+    margin: 30px auto;
     padding: 8px 0;
     border-radius: 20px;
     color: #14b9d5;
@@ -274,16 +286,14 @@
     width: 170px;
 }
 
-
 .content-package-destination a {
     color: #14b9d5;
-}   
-
+}
 
 .content-all-packages {
     height: 233px;
     margin-top: 65px;
-    background-position:center;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url(/assets/img/content-package/parallax-search-2.jpg);
@@ -298,20 +308,16 @@
     font-weight: bold;
     position: relative;
     right: 86px;
-    
 }
 
 .content-all-packages__title-1 {
-   
 }
 
 .content-all-packages__title-2 {
-
 }
 
-
 .content-all-packages__btn {
-    position: relative;    
+    position: relative;
     left: 40px;
 }
 
@@ -320,14 +326,12 @@
     color: #f76570;
 }
 
-
 /* Beaches */
 .content-beaches {
     display: flex;
     margin-top: 60px;
     padding: 15px;
     justify-content: space-between;
-    
 }
 
 .content-beaches__info {
@@ -338,13 +342,12 @@
 .content-beaches__place {
     color: var(--text-color-2);
     font-size: 1.4rem;
-
 }
 
 .content-beaches__title {
     font-size: 3.6rem;
     color: var(--text-color);
-    font-weight: bold;    
+    font-weight: bold;
     margin-top: 15px;
 }
 
@@ -356,10 +359,10 @@
     line-height: 27px;
 }
 
-.content-beaches__price {    
-    margin-top: 28px;    
+.content-beaches__price {
+    margin-top: 28px;
     font-size: 3rem;
-    color: var(--text-color);    
+    color: var(--text-color);
     letter-spacing: 1px;
 }
 
@@ -369,7 +372,6 @@
 }
 
 .content-beaches__new-price {
-
 }
 
 .content-beaches__price-unit {
@@ -377,8 +379,8 @@
 }
 
 .content-beaches__btn {
-    margin-top: 24px;  
-    outline: none; 
+    margin-top: 24px;
+    outline: none;
     background-color: #1bbc9b;
     color: var(--white-color);
 }
@@ -401,25 +403,23 @@
     top: 30px;
     left: 50%;
     transform: translateX(-50%);
-
 }
 
 .content-beaches__slider-btn-item {
     width: 60px;
     height: 4px;
-    background: rgba(255,255,255,0.5);
+    background: rgba(255, 255, 255, 0.5);
     margin: 0 8px;
     border-radius: 2px;
     cursor: pointer;
 }
 
 .content-beaches__slider-btn-item--active {
-    background: rgba(255,255,255,1);
+    background: rgba(255, 255, 255, 1);
 }
 
 .content-beaches__slider-btn-item:hover {
-    background: rgba(255,255,255,1);
-    
+    background: rgba(255, 255, 255, 1);
 }
 
 .content-beaches__slides {
@@ -440,38 +440,34 @@
     height: 100%;
     position: absolute;
     right: 0;
-    opacity: 0;    
+    opacity: 0;
     transition: opacity ease-in-out 1s;
 }
-
 
 /* time remain */
 .content-beaches__countdown {
     width: 490px;
     height: 114px;
-    background-color: #14B9D5;
+    background-color: #14b9d5;
     position: absolute;
     bottom: -57px;
     left: 50%;
     transform: translateX(-50%);
-    display: flex;    
+    display: flex;
     align-items: center;
     justify-content: space-evenly;
-
 }
 
 .content-beaches__time-day,
-.content-beaches__time-hour ,
+.content-beaches__time-hour,
 .content-beaches__time-minute,
 .content-beaches__time-second {
-    color: var(--white-color);  
-   
-    
+    color: var(--white-color);
 }
 
 .content-beaches__time-number {
     font-size: 3.5rem;
-    margin-bottom: 6px;  
+    margin-bottom: 6px;
 }
 
 .content-beaches__time-unit {
@@ -482,15 +478,13 @@
 .content-beaches__time-separate {
     font-size: 4rem;
     font-weight: 500;
-    color: rgba(0, 0, 0, 0.05)
+    color: rgba(0, 0, 0, 0.05);
 }
-
 
 /* Content tour */
 .content-tour {
     margin-top: 80px;
     display: flex;
-    
 }
 
 .content-tour__item {
@@ -500,7 +494,6 @@
 }
 
 .content-tour__icon {
-   
     margin-right: 20px;
     font-weight: bold;
 }
@@ -510,9 +503,7 @@
     height: 50px;
 }
 
-
 .content-tour__info {
-    
     text-align: left;
 }
 
@@ -538,17 +529,18 @@
     display: block;
 }
 
-
 .content-discover {
     width: 100%;
-    height: 270px;
+
     display: flex;
     margin-top: 60px;
+    flex-wrap: wrap;
 }
 
 .content-discover__item {
     width: 50%;
     height: 100%;
+    height: 270px;
     text-align: center;
     background-size: cover;
     background-position: center;
@@ -556,8 +548,8 @@
     padding: 64px 15px;
 }
 
-.content-discover__item-left {    
-    background-image: url('/assets/img/content-discover/parallax-5-filter.jpg')
+.content-discover__item-left {
+    background-image: url("/assets/img/content-discover/parallax-5-filter.jpg");
 }
 
 .content-discover__item-left .content-discover__btn {
@@ -565,10 +557,10 @@
 }
 
 .content-discover__item-right {
-    background-image: url('/assets/img/content-discover/parallax-6-filter.jpg')
+    background-image: url("/assets/img/content-discover/parallax-6-filter.jpg");
 }
 
-.content-discover__item-right .content-discover__btn {   
+.content-discover__item-right .content-discover__btn {
     color: #1bbc9b;
 }
 
@@ -576,7 +568,6 @@
     color: var(--white-color);
     font-size: 1.4rem;
     letter-spacing: 2px;
-
 }
 
 .content-discover__place {
@@ -591,4 +582,3 @@
     font-size: 1.4rem;
     letter-spacing: 1px;
 }
-
