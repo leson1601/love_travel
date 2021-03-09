@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="./assets/css/resetCss.css">
     <link rel="stylesheet" href="./assets/css/base.css">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive/base-responsive.css">
+    <link rel="stylesheet" href="./assets/css/responsive/index-responsive.css">
 </head>
 <body>
     <!-- Header -->
@@ -21,7 +23,8 @@
             <a class="header__logo" href="/">
                 <img class="header__logo-img" src="./assets/img/logo.png" alt="Logo">
             </a>
-            <div class="header-navbar-container">
+            <input type="checkbox" name="" id="header-navbar-container__btn">
+            <div  class="header-navbar-container">
                 <ul class="header-navbar">
                     <li class="navbar-item">
                         <a href="" class="navbar-item__link">                        
@@ -96,8 +99,7 @@
                         </a>
                         <ul class="subnav">
                             <li class="subnav-item subnav-item--new ">
-                                <a class="subnav-text">About us</a>
-                                
+                                <a class="subnav-text">About us</a>                                
                                 
                             </li>
                             <li class="subnav-item">
@@ -198,9 +200,10 @@
                         </a>
                     </li>  
                 </ul>
+                
             </div>
             
-            <div class="header__btn">
+            <label for="header-navbar-container__btn" class="header__btn">
                 <i class="ti-align-justify"></i>
 
                 <!-- Sidebar -->
@@ -320,12 +323,15 @@
                     </div>
                 </div>
 
-            </div>
+            </label>
+
+            <label for="header-navbar-container__btn" class="header-navbar-container__close-btn">
+                <i class="ti-close"></i>
+
+            </label>
             <div class="sidebar-close-btn">
                 <i class="ti-close"></i>
-            </div>
-                
-
+            </div>  
         </div>
         <div class="search container">
             <h1 class="search-title">Search your next Holiday</h1>
@@ -444,7 +450,8 @@
                                 <a href="#">VIEW DESTINATION</a>
                             </div>    
                         </div>
-                    </div>                  
+                    </div>   
+                                   
                 </div>
     
                 <div class="content-packages__row">
@@ -548,47 +555,52 @@
                 <button class="btn content-beaches__btn uppercase">BOOK NOW</button>
             </div>
 
+            
             <div class="content-beaches__slider">
-                <!-- slide btn -->
-                <div class="content-beaches__slider-btn">
-                    <div class="content-beaches__slider-btn-item content-beaches__slider-btn-item--active" id="slide-btn-1"></div>
-                    <div class="content-beaches__slider-btn-item" id="slide-btn-2"></div>
-                    <div class="content-beaches__slider-btn-item" id="slide-btn-3"></div>
+                <div class="content-beaches__slider-inner">
+                    <!-- slide btn -->
+                    <div class="content-beaches__slider-btn">
+                        <div class="content-beaches__slider-btn-item content-beaches__slider-btn-item--active" id="slide-btn-1"></div>
+                        <div class="content-beaches__slider-btn-item" id="slide-btn-2"></div>
+                        <div class="content-beaches__slider-btn-item" id="slide-btn-3"></div>
+                    </div>
+                    <div class="content-beaches__slides">
+                        <div  class="content-beaches__slide ">
+                            <img class ="content-beaches__slide-img" src="/assets/img/slider/slider-1.jpg" alt="Slide image">
+                        </div>
+                        <div  class="content-beaches__slide ">
+                            <img class ="content-beaches__slide-img" src="/assets/img/slider/slider-2.jpg" alt="Slide image">                     
+                        </div>
+                        <div  class="content-beaches__slide content-beaches__slide--active">
+                            <img class ="content-beaches__slide-img" src="/assets/img/slider/slider-3.jpg" alt="Slide image">                    
+                        </div>
+                    
+                    </div>
                 </div>
-                <div class="content-beaches__slides">
-                    <div  class="content-beaches__slide ">
-                        <img class ="content-beaches__slide-img" src="/assets/img/slider/slider-1.jpg" alt="Slide image">
-                    </div>
-                    <div  class="content-beaches__slide ">
-                        <img class ="content-beaches__slide-img" src="/assets/img/slider/slider-2.jpg" alt="Slide image">                     
-                    </div>
-                    <div  class="content-beaches__slide content-beaches__slide--active">
-                        <img class ="content-beaches__slide-img" src="/assets/img/slider/slider-3.jpg" alt="Slide image">                    
-                    </div>
-                   
-                  </div>
+                
 
-                  <div class="content-beaches__countdown">
-                      <div class="content-beaches__time-day">
-                          <h2 class="content-beaches__time-number">000</h2>
-                          <h4 class="content-beaches__time-unit">days</h4>
-                      </div>
-                      <h2 class="content-beaches__time-separate">/</h2>
-                      <div class="content-beaches__time-hour">
+                 
+                <div class="content-beaches__countdown">
+                    <div class="content-beaches__time-day">
                         <h2 class="content-beaches__time-number">000</h2>
-                        <h4 class="content-beaches__time-unit">hours</h4>
-                      </div>
-                      <h2 class="content-beaches__time-separate">/</h2>
-                      <div class="content-beaches__time-minute">
-                        <h2 class="content-beaches__time-number">000</h2>
-                        <h4 class="content-beaches__time-unit">minutes</h4>
-                      </div>
-                      <h2 class="content-beaches__time-separate">/</h2>
-                      <div class="content-beaches__time-second">
-                        <h2 class="content-beaches__time-number">000</h2>
-                        <h4 class="content-beaches__time-unit">seconds</h4>
-                      </div>
-                  </div>
+                        <h4 class="content-beaches__time-unit">days</h4>
+                    </div>
+                    <h2 class="content-beaches__time-separate">/</h2>
+                    <div class="content-beaches__time-hour">
+                      <h2 class="content-beaches__time-number">000</h2>
+                      <h4 class="content-beaches__time-unit">hours</h4>
+                    </div>
+                    <h2 class="content-beaches__time-separate">/</h2>
+                    <div class="content-beaches__time-minute">
+                      <h2 class="content-beaches__time-number">000</h2>
+                      <h4 class="content-beaches__time-unit">minutes</h4>
+                    </div>
+                    <h2 class="content-beaches__time-separate">/</h2>
+                    <div class="content-beaches__time-second">
+                      <h2 class="content-beaches__time-number">000</h2>
+                      <h4 class="content-beaches__time-unit">seconds</h4>
+                    </div>
+                </div>
             </div>
         </div>
 
