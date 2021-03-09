@@ -292,7 +292,8 @@ a {
     background-color: var(--white-color);
     top: 0;
     right: -410px;
-    display: flex;
+    display: none;
+    /* display: flex; */
     transition: right ease 0.5s;
     z-index: 1;
     border: 1px solid rgba(0, 0, 0, 0.1);
@@ -312,6 +313,7 @@ a {
     z-index: 1;
     transition: right ease 0.5s;
     cursor: pointer;
+    display: none;
 }
 
 .sidebar-content {

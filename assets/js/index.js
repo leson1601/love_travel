@@ -7,10 +7,14 @@ var header_btn = document.querySelector(".header__btn");
 
 header_btn.onclick = function () {
     sidebar.style.right = "0";
+    sidebar.style.display = "flex";
     close.style.right = "24px";
+    close.style.display = "block";
 }
 close.onclick = function () {
     sidebar.style.right = "-410px";
+    sidebar.style.display = "none";
+    close.style.display = "none";
     close.style.right = "-365px";
 }
 

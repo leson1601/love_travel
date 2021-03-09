@@ -329,3 +329,12 @@
 /* Tablet */
 @media (min-width: 740px) and (max-width: 1024px) {
 }
+
+@media (max-width: 1260px) {
+    .header__logo {
+        margin: 0 20px;
+    }
+    .navbar-item {
+        margin: 0 10px;
+    }
+}
